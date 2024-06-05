@@ -1,0 +1,33 @@
+.cardcontainer{
+    display: flex;
+    height: 30vw;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    box-shadow: 0 0 20px gray;
+}
+.card .picture{
+    background-image: url(../assets/card1pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+.card .text{
+    padding: 0 30px;
+}
+.h1Heading{
+    text-align: left;
+    padding-left: 100px;
+}
